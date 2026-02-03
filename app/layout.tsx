@@ -1,11 +1,11 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Noto_Sans_JP, Inter } from 'next/font/google'
+// import { Noto_Sans_JP, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _notoSansJP = Noto_Sans_JP({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
-const _inter = Inter({ subsets: ["latin"] });
+// const _notoSansJP = Noto_Sans_JP({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+// const _inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'GANDHARA | 外部CTO・技術顧問・AI導入支援',
